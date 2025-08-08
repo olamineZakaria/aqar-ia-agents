@@ -10,8 +10,16 @@ Système d'agents IA coordonnés pour assister dans toutes les étapes de l'acqu
 - **Expert Finance** : Budget, emprunt, coûts, fiscalité
 - **Expert Guide Acquéreur** : Acquisition, étapes, promoteurs, conseils
 - **Expert Matériaux** : Matériaux, fournisseurs, construction
+### Prérequis
+```bash
+# Installer Google ADK
+pip install google-adk
 
-## Installation et Configuration
+# Vérifier l'installation
+python -c "import google.adk; print('ADK installé avec succès')"
+```
+
+### Installation du projet
 ```bash
 # Cloner le projet
 git clone [repository-url]
@@ -19,6 +27,7 @@ cd mon_projet_adk
 
 # Installer les dépendances
 pip install -r requirements.txt
+```
 ```
 
 ## Variables d'Environnement
